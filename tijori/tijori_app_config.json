@@ -1,0 +1,142 @@
+    ],
+    "dashboard": [
+      "totalBalance",
+      "incomeSummary",
+      "expenseSummary",
+      "savingsSummary",
+      "recentTransactions"
+    ],
+    "transactions": [
+      "add",
+      "edit",
+      "delete",
+      "search",
+      "filter",
+      "categoryBreakdown"
+    ],
+    "budgets": [
+      "createBudget",
+      "editBudget",
+      "spendingProgress",
+      "budgetAlerts"
+    ],
+    "savingsGoals": [
+      "createGoal",
+      "trackProgress",
+      "targetDate"
+    ],
+    "accounts": [
+      "multipleAccounts",
+      "accountBalances",
+      "defaultAccount"
+    ],
+    "reports": [
+      "monthlySummary",
+      "incomeVsExpenses",
+      "categoryWiseExpenses"
+    ],
+    "settings": [
+      "profile",
+      "currency",
+      "theme",
+      "notifications"
+    ]
+  },
+  "navigation": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "route": "/dashboard"
+    },
+    {
+      "id": "transactions",
+      "label": "Transactions",
+      "route": "/transactions"
+    },
+    {
+      "id": "budgets",
+      "label": "Budgets",
+      "route": "/budgets"
+    },
+    {
+      "id": "goals",
+      "label": "Savings Goals",
+      "route": "/goals"
+    },
+    {
+      "id": "accounts",
+      "label": "Accounts",
+      "route": "/accounts"
+    },
+    {
+      "id": "reports",
+      "label": "Reports",
+      "route": "/reports"
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "route": "/settings"
+    }
+  ],
+  "defaults": {
+    "transactionTypes": [
+      "income",
+      "expense"
+    ],
+    "paymentMethods": [
+      "UPI",
+      "Debit Card",
+      "Credit Card",
+      "Net Banking",
+      "Cash",
+      "Bank Transfer"
+    ],
+    "expenseCategories": [
+      "Food & Dining",
+      "Transport",
+      "Shopping",
+      "Bills & Utilities",
+      "Entertainment",
+      "Healthcare",
+      "Education",
+      "Travel",
+      "Rent",
+      "Groceries",
+      "Other"
+    ],
+    "incomeCategories": [
+      "Salary",
+      "Freelancing",
+      "Business",
+      "Investment",
+      "Gift",
+      "Other"
+    ],
+    "accountTypes": [
+      "Savings",
+      "Salary",
+      "Current",
+      "Cash",
+      "Wallet"
+    ],
+    "themes": [
+      "light",
+      "dark",
+      "system"
+    ]
+  },
+  "mockApi": {
+    "provider": "GitHub Raw",
+    "usersFile": "tijori_finance_api.json",
+    "readOnly": true,
+    "demoEmailPattern": "user001@tijori.test to user100@tijori.test",
+    "demoPassword": "Demo@123",
+    "notes": "Mock configuration for development and testing. Registration and data changes must be simulated locally unless a separate backend is connected."
+  },
+  "support": {
+    "email": "support@tijori.test",
+    "website": "https://example.com/tijori",
+    "helpCenter": "https://example.com/tijori/help"
+  }
+}
